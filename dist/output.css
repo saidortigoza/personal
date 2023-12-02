@@ -782,6 +782,18 @@ video {
   padding-top: 8rem;
 }
 
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-52 {
+  padding-bottom: 13rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -906,6 +918,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:absolute {
+    position: absolute;
+  }
+
   .sm\:h-\[570px\] {
     height: 570px;
   }
